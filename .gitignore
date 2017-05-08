@@ -1,0 +1,11 @@
+# Build
+dist/
+
+# Config
+config.json
+
+# Logs
+*.log
+
+# Dependencies
+node_modules
