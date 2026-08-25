@@ -22,7 +22,7 @@ class TCPServer extends EventEmitter {
       // throw error;
     });
 
-    this.server.listen(this.config.port, () => {
+    this.server.listen(this.config.port, this.config.host || '127.0.0.1', () => {
       const address = this.server.address();
       logger.info(`Server listening on ${address.address}:${address.port}`);
     });
