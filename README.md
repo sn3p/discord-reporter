@@ -26,6 +26,7 @@ Create a config.json that looks like this:
   "token": "DISCORD_BOT_TOKEN",
   "channel": "CHANNEL_ID",
   "password": "PASSWORD",
+  "host": "127.0.0.1",
   "port": 5000,
   "prefix": "."
 }
